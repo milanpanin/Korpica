@@ -1,0 +1,35 @@
+.card {
+  display: inline-block !important;
+  margin: 15px 10px;
+  text-align: center;
+  color: #333;
+  width: 12rem;
+}
+
+.cardPrice {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cardButton {
+  margin: 15px 0;
+  padding: 5px 25px;
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 10rem;
+  }
+
+  .cardTitle {
+    font-size: 14px;
+  }
+
+  .cardPrice {
+    font-size: 14px;
+  }
+
+  .cardButton {
+    font-size: 14px;
+  }
+}

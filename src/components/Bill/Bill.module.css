@@ -1,0 +1,69 @@
+.bill {
+  max-width: 100%;
+}
+
+table {
+  text-align: center;
+  width: 80% !important;
+  margin: 15px auto;
+  color: #fff;
+}
+
+p {
+  margin: 15px 10% 0 0;
+  float: right;
+  font-size: 20px;
+}
+
+p span {
+  color: #7a2929;
+}
+
+.billButton {
+  margin: 0 0 0 10%;
+}
+
+@media only screen and (max-width: 800px) {
+  table {
+    width: 98% !important;
+  }
+
+  p {
+    margin: 15px 1% 0 0;
+  }
+
+  .billButton {
+    margin: 0 0 0 1%;
+  }
+
+  hr {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .bill {
+    text-align: center;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .billButton {
+    font-size: 14px;
+  }
+
+  .bill p {
+    float: none;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin: 15px auto 5px auto;
+  }
+
+  .billButton {
+    margin: 0 0 0 1%;
+  }
+}

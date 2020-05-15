@@ -1,0 +1,54 @@
+.inputForm {
+  max-width: 80%;
+  margin: 0 auto 30px auto;
+}
+
+.inputForm Form {
+  margin: 0 0 30px 0;
+}
+
+.formSmall {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .inputForm {
+    max-width: 98%;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .inputForm {
+    max-width: 98%;
+    font-size: 14px;
+  }
+
+  .field {
+    font-size: 14px !important;
+  }
+
+  .formBig {
+    display: none;
+  }
+
+  .formSmall {
+    display: block;
+  }
+
+  .inputForm h6 {
+    font-size: 14px;
+    margin: 0 0 10px 5px;
+  }
+
+  .inputForm .rowOne {
+    margin: 0 0 10px 0;
+  }
+
+  .inputForm .rowTwo {
+    margin: 0 0 0 0;
+  }
+
+  .inputForm .rowTwo Button {
+    font-size: 14px;
+  }
+}
